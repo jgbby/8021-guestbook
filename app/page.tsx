@@ -107,9 +107,12 @@ export default function Home() {
       calls: [
         {
           to: GUESTBOOK_ADDRESS,
-          data: (data + DATA_SUFFIX.slice(2)) as `0x${string}`,
+          data,
         },
       ],
+      capabilities: {
+        dataSuffix: DATA_SUFFIX,
+      },
     });
   };
 
