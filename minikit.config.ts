@@ -9,15 +9,8 @@ const ROOT_URL =
  * @see {@link https://docs.base.org/mini-apps/features/manifest}
  */
 export const minikitConfig = {
-  accountAssociation: {
-    header:
-      "eyJmaWQiOjYxNjIsInR5cGUiOiJhdXRoIiwia2V5IjoiMHg1MmE0NTdCZGU1NGZERWFGNzIxOTlBQTZhNjJENUMwMjdiQzhDYmQ4In0",
-    payload: "eyJkb21haW4iOiI4MDIxLWd1ZXN0Ym9vay52ZXJjZWwuYXBwIn0",
-    signature:
-      "xp5dmAKxM2LATUBXGr9JI4w2ac8K3894MHXp033rq/NQst1qiI8frIA/KiIg+/q4YTNl14wudE4uxuVXXHg1Mxw=",
-  },
   baseBuilder: {
-    ownerAddress: "0xfa6b3df826636eb76e23c1ee38180db3b8f60a86",
+    ownerAddress: "0x7E5dD03EEbbcb71028210d6f1348e1e16cc8CB86",
   },
   miniapp: {
     version: "1",
