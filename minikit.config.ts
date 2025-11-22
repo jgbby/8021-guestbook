@@ -9,6 +9,11 @@ const ROOT_URL =
  * @see {@link https://docs.base.org/mini-apps/features/manifest}
  */
 export const minikitConfig = {
+  accountAssociation: {  // these will be added in step 5
+    header: "",
+    payload: "",
+    signature: ""
+  },
   baseBuilder: {
     ownerAddress: "0x7E5dD03EEbbcb71028210d6f1348e1e16cc8CB86",
   },
