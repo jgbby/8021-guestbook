@@ -89,7 +89,7 @@ export default function Home() {
       abi: GUESTBOOK_ABI,
       functionName: "sign",
       args: [message],
-      dataSuffix: DATA_SUFFIX,
+      dataSuffix: "0x",
     });
   };
 
