@@ -111,7 +111,7 @@ export default function Home() {
         },
       ],
       capabilities: {
-        dataSuffix: "",
+        dataSuffix: "0xj",
       },
     });
   };
