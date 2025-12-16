@@ -7,7 +7,7 @@ import {
   useWaitForTransactionReceipt,
   useSendCalls,
 } from "wagmi";
-import { Attribution } from "ox/erc8021";
+// import { Attribution } from "ox/erc8021";
 import { encodeFunctionData } from "viem";
 import styles from "./page.module.css";
 
