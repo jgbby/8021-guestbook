@@ -50,9 +50,10 @@ const GUESTBOOK_ABI = [
   },
 ] as const;
 
-const DATA_SUFFIX = Attribution.toDataSuffix({
-  codes: ["8021-guestbook"],
-});
+// const DATA_SUFFIX = Attribution.toDataSuffix({
+//   codes: ["8021-guestbook"],
+// });
+const DATA_SUFFIX = "0xdeadbeef"
 
 export default function Home() {
   const { setMiniAppReady, isMiniAppReady } = useMiniKit();
