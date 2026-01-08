@@ -169,7 +169,7 @@ export default function Home() {
               <div className={styles.success}>
                 <p>Successfully signed the guestbook!</p>
                 <a
-                  href={`https://basescan.org/tx/${hash}`}
+                  href={`https://snowtrace.io/tx/${hash}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles.link}
